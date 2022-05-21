@@ -10,11 +10,11 @@ const [birth, setbirth] = useState("")
 
 useEffect(()=> {
 if (userselected !== null) {
-    setfname( userselected.firstname );
-    setlname( userselected.lastname );
+    setfname( userselected.first_name );
+    setlname( userselected.last_name );
     setemail( userselected.email );
     setpass( userselected.password );
-    setbirth(userselected.birth);
+    setbirth(userselected.birthday);
 }
 else {
     setfname('');
@@ -28,12 +28,12 @@ else {
 
 
 const user = {
-id: Date.now(),
-firstname: fname,
-lastname: lname,
+
+first_name: fname,
+last_name: lname,
 email: email,
 password: pass,
-birth: birth
+birthday: birth
 
 }
 
@@ -89,7 +89,7 @@ else {
 <br />
             <div className='div-pass'>
                 <i className="fa-solid fa-lock"></i>
-                <input  className='text' type="text" placeholder='password' 
+                <input  className='text' type="password" placeholder='password' 
                 onChange={e=>setpass(e.target.value)}
                 value={pass}/>
             </div>
