@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+.div-form {
+width: 40%;
+height: 100vh;
+background-color: #F7F7F7;
+padding: 50px 20px;
+}
+
+.div_items {
+width: 60%;
+height: 100vh;
+background-color: rgb(172, 172, 172);
+}
+
+
+.div-name {
+display: flex;
+gap: 10px;
+}
+
+.div-mail {
+  display: flex;
+gap: 10px;
+}
+
+.div-pass {
+  display: flex;
+  gap: 10px;
+}
+
+.div-date {
+  display: flex;
+  gap: 10px;
+}
+
+.text {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: #CCCCCC;
+  background-color: #FFFFFF;
+  color: #000000;
+  border-style: solid;
+  border-radius: 7px;
+  box-shadow: -2px 0px 2px rgba(66,66,66,.33);
+  text-shadow: -10px 0px 10px rgba(66,66,66,.0);
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.buton {
+  display: block;
+  margin: auto;
+  width: 150px;
+  font-family: arial;
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #3866A3;
+  background: #63B8EE;
+}
+
+.buton:hover {
+  color: #14396A !important;
+  background: grad;
+  background: linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+  background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+  background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+.li-user {
+  
+ list-style: none;
+  width: 250px;
+  height: 220px;
+  padding: 15px;
+  background-color: #FFFFFF;
+  line-height: 28px;
+}
+
+.div-listuser {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.title-lusers {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.div-listuser h3 {
+  text-align: center;
+}
+
+.delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #D85D5D;
+  border: solid 0.5px #D93F3F;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #cdcaca;
+  border: solid 0.5px Gray 4;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.butons_crud {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.icon-list {
+  color: white;
+  font-size: 20px;
+  
+  
+}
